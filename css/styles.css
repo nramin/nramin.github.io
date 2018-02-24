@@ -27,28 +27,28 @@ p {
 
 body {
   font-family: 'Catamaran', sans-serif; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 960px) {
     body {
       font-size: 14px; } }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 959px) {
     body {
       font-size: 12px; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   #container {
     margin: auto;
     width: 960px;
     clear: both;
     overflow: hidden;
     background: #fff; } }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 959px) {
   #container {
     width: 100%; } }
 
 #website-intro {
   border-bottom: 4px solid #fa625f;
   padding-bottom: 20px; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 959px) {
     #website-intro {
       padding-left: 10px;
       margin-top: 10px; } }
@@ -70,7 +70,7 @@ header {
     font-size: 2em;
     display: inline-block;
     cursor: pointer; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 959px) {
     header {
       margin-top: 10px; } }
 
@@ -94,7 +94,7 @@ header {
       color: #fff; }
   #side-content nav a:first-child {
     margin-right: 0; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 959px) {
     #side-content nav {
       border-bottom: 4px solid #fa625f;
       padding-bottom: 10px; } }
@@ -103,7 +103,7 @@ header {
   font-size: 1.3em;
   border-bottom: 1px solid #000; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   #content {
     width: 660px;
     float: right;
@@ -111,12 +111,12 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 30px; } }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 959px) {
   #content {
     padding-left: 10px;
     padding-right: 10px; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   #side-content {
     width: 220px;
     float: left;
@@ -125,7 +125,7 @@ header {
     padding-left: 30px;
     min-height: 500px;
     position: fixed; } }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 959px) {
   #side-content {
     width: 100%; } }
 
@@ -136,26 +136,26 @@ header {
   padding-top: 30px;
   padding-bottom: 30px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   .thumbnail {
     float: left;
     display: inline-block;
     width: 200px;
     min-height: 100px; } }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 959px) {
   .thumbnail {
     margin-bottom: 10px; } }
 .thumbnail img {
   display: block;
   width: 200px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   .information {
     float: left;
     display: inline-block;
     width: 440px;
     margin-left: 20px; } }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 959px) {
   .information {
     display: inline-block; } }
 
