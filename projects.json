@@ -1,0 +1,151 @@
+{
+    "projects":[
+      {
+        "title":"Delilah Home Daycare - web solutions for client",
+        "date":"2012",
+        "description":"Helped a local daycare set up their website.",
+        "summary":[
+          {
+            "text":"Helped a local daycare set up their website. Website design is suited to something very friendly with many colors."
+          }
+        ],
+        "technologies":"PHP, HTML5, CSS3, jQuery",
+        "thumbnail":"/img/thumbs/daycare1.png",
+        "links":{
+          "source-code":[
+  
+          ],
+          "demo":[
+            "http://delilahdaycare.com"
+          ]
+        }
+      },
+      {
+        "title":"SoMe Lab",
+        "date":"2012",
+        "description":"My research work for the SoMe Lab at the University of Washington Information School in regards to Occupy Wall Street data.",
+        "summary":[
+          {
+            "text":"My project's goal was to collect Occupy Wall St. data from all the different facebook pages that they had. I wrote the code to do that automatically with python, pymongo, and facebook python sdk."
+          }
+        ],
+        "technologies":"Python, MongoDB (pymongo), Facebook SDK",
+        "thumbnail":"/img/thumbs/somelab.png",
+        "links":{
+          "source-code":[
+            "https://github.com/nramin/ischool-some-lab-facebook-page-post-mass-downloader"
+          ],
+          "demo":[
+            "https://somelab.ischool.uw.edu/"
+          ]
+        }
+      },
+      {
+        "title":"Morpho Detection Inc. - Engineering Internship",
+        "date":"Summer 2013",
+        "description":"I worked on automatation of Linux build burns onto discs for internal testing. This included a web app as well as python utilities.",
+        "summary":[
+          {
+            "text":"I interned at Morpho Detection Inc. Engineers at Morpho had to test many different builds of their custom operating systems. They needed to automatically burn these builds to discs. They had a mass disc burning robot that had a SDK. I developed with this sdk and created a web frontend and client backend so that they could make their burning process much faster. Their builds could automatically burn if they wanted. They could also browse a web frontend where they could browse through network folders and choose what images/builds to burn. Before, an engineering would have to remote desktop into the main computer and burn the disc using the applications on that program. My solution made that part of their job much more effecient. This web front end was written in HTML5, CSS3, jQuery, Twitter Bootstrap. The backend was PHP, Python, and Windows Batch."
+          }
+        ],
+        "technologies":"PHP, MVC frameworks, MySQL(v1, not in v2), Python, Windows Batch, HTML5, CSS3, JavaScript, jQuery, Twitter Bootstrap",
+        "thumbnail":"/img/thumbs/safranmorpho.jpg",
+        "links":{
+          "source-code":[
+            "https://github.com/nramin/PTPublisher-job-request-file-generator-iso-images-python"
+          ],
+          "demo":[
+            ""
+          ]
+        }
+      },
+      {
+        "title":"Mushroaming - drupal/theming/web solutions for client",
+        "date":"2012 - present",
+        "description":"Helped a client by transferring content from their 1990s era looking website to a drupal based site. On going work for a client and general site maintenance.",
+        "summary":[
+          {
+            "text":"Helped a client by transferring content from their 1990s era looking website to a drupal based site. Ongoing work for a client and general site maintenance."
+          }
+        ],
+        "thumbnail":"/img/thumbs/mushroaming1.png",
+        "technologies":"Drupal, PHP, MySQL, HTML5, CSS3, jQuery",
+        "links":{
+          "source-code":[
+  
+          ],
+          "demo":[
+            "http://mushroaming.com"
+          ]
+        }
+      },
+      {
+        "title":"The Information School, University of Washington - Web Development",
+        "date":"2012 - 2014",
+        "description":"Served as a web developer for the Information School at the University of Washington in the later half of college.",
+        "summary":[
+          {
+            "text":"Javascript iPad/tablet/mobile smooth scroll for people page. This project involved modifying an already existing drupal module written by my supervisor. The existing user interface for the people page on mobile/tablet platforms was not completely functioning. The system worked but was not easy to use with touch surfaces. Using primarily javascript and jQuery, I was able to create a very user-friendly interface for mobile/tablet.",
+            "images":[
+              "ischool2.png"
+            ]
+          },
+          {
+            "text":"I work as the student web developer for the Information School (iSchool) at the University of Washington and these are some of the projects I've worked on. Most of them being work under a drupal infrastructure. This turned out to be more complicated as the height of pages could change at any moment and pages had multiple heights. This drupal module had to be dynamic enough to support many different kinds of pages on the iSchool website and to be responsive. This project was done significantly in Javascript, CSS/HTML, and PHP. I had to work with various social network website to understand how to use their share APIs.",
+            "images":[
+              "ischool1.png"
+            ]
+          },
+          {
+            "text":"Ricardo Gomez's faculty website, completely responsive for all devices. This project involved making a fellow ischool researcher's academic website. The design was predone by our designer and I coded the entire HTML5/CSS3 template on top of the drupal theme. It is a responsive design as can be seen below. This was my first repsonsive website and I am very proud of the work.",
+            "images":[
+              "ischool3.png",
+              "ischool4.png"
+            ]
+          }
+        ],
+        "thumbnail":"/img/thumbs/ischool.png",
+        "links":{
+          "source-code":[
+            "https://github.com/nramin/Sharing-icons-ischool-website-drupal-module",
+            "https://github.com/nramin/rgomez-academic-website-css-design"
+          ],
+          "demo":[
+            "http://ischool.uw.edu",
+            "http://rgomez.ischool.uw.edu"
+          ]
+        },
+        "technologies":"PHP, MySQL, HTML5, CSS3, Javascript, jQuery"
+      },
+      {
+        "title":"Girl in Yellow Charity - Web Development",
+        "date":"2015",
+        "description":"Volunteer work to help develop a local charity's website.",
+        "summary":[
+          {
+            "text":"Volunteer work to help develop a local charity's website."
+          }
+        ],
+        "thumbnail":"/img/thumbs/girlinyellow.png",
+        "technologies":"PHP, HTML5, CSS3, jQuery",
+        "links": {
+            "demo": [
+                "http://girlinyellow.org"
+            ]
+        }
+      },
+      {
+        "title":"Nordstrom - Software Engineer",
+        "date":"2014 - present",
+        "description":"Have been employed to work on various backend APIs, services, and frontend development.",
+        "summary":[
+          {
+            "text":"Have been employed to work on various backend APIs, services, and frontend development."
+          }
+        ],
+        "thumbnail":"/img/thumbs/nordstrom.png",
+        "technologies":"C# (.NET), Java (Maven, DropWizard, JUnit, Mockito), React, TypeScript"
+      }
+    ]
+  }

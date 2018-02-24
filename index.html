@@ -1,18 +1,50 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="nramin's portfolio page">
+        <meta name="keywords" content="web dev">
+        <meta name="author" content="nramin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>nramin's Portfolio</title>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/animate.min.css">
+    </head>
+    <body>
+        <section id="container">
+            <section id="side-content">
+                <div id="website-intro">
+                    <span id="website-title"><a href="/">nramin</a></span>
+                    <span id="website-slogan">Hi, my name is Ramin. Welcome to my portfolio!</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://github.com/nramin">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/ramin-nehchiri-078b1045" target="_blank">LinkedIn</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="content">
+                <header>
+                    <h1 id="portfolio">Portfolio</h1>
+                </header>
+                <section id="intro"><p>Here are a few projects I've been working on.</p></section>
+                <section id="projects-list"></section>
+                <section id="resume">
+                    <h1>Resume</h1>
+                    <span>My resume will be available soon.</span>
+                </section>
+                <section id="contact">
+                    <h1>Contact</h1>
+                    Feel free to send me a note at my email: <a href="http://www.google.com/recaptcha/mailhide/d?k=01ablVVjoGiGHQ3wfe1YOiyA==&amp;c=GvExPTO1OC7mNjx6GiJSWFGhjOSDlQ0UhMNnTPkgdCA=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01ablVVjoGiGHQ3wfe1YOiyA\x3d\x3d\x26c\x3dGvExPTO1OC7mNjx6GiJSWFGhjOSDlQ0UhMNnTPkgdCA\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">n...</a>@gmail.com
+                </section>
+            </section>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,268 @@
+$placeholder-color: #c7c7c7;
+$break-large: 768px;
+
+@font-face {
+    font-family: 'BLOKKNeue-Regular';
+    src: url('../fonts/webfonts/BLOKKNeue-Regular.eot');
+}
+
+@font-face {
+    font-family: 'BLOKKNeue-Regular';
+    src: url('../fonts/webfonts/BLOKKNeue-Regular.woff') format('woff'),
+    url('../fonts/webfonts/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
+}
+
+.placeholder-font {
+    font-family: "BLOKKNeue-Regular", serif;
+    color: $placeholder-color;
+}
+
+.placeholder-for-image {
+    background: $placeholder-color;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    transition: .3s;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    @media screen and (min-width: $break-large) {
+        font-size: 14px;
+    }
+    @media screen and (max-width: $break-large - 1) {
+        font-size: 12px;
+    }
+}
+
+#container {
+    @media screen and (min-width: $break-large) {
+        margin: auto;
+        width: 960px;
+        clear: both;
+        overflow: hidden;
+        background: #fff;
+    }
+    @media screen and (max-width: $break-large - 1) {
+        width: 100%;
+    }
+}
+
+#website-intro {
+    border-bottom: 4px solid #fa625f;
+    padding-bottom: 20px;
+    @media screen and (max-width: $break-large - 1) {
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+#website-title {
+    font-size: 2.5em;
+    display: block;
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+#website-slogan {
+    font-size: 1.2em;
+    display: block;
+}
+
+header {
+    border-bottom: 1px solid #000;
+
+    h1 {
+        font-size: 2em;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: $break-large - 1) {
+        margin-top: 10px;
+    }
+}
+
+#side-content nav {
+    margin-top: 15px;
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.4em;
+        padding: 8px;
+        width: 100%;
+        box-sizing: border-box;
+
+        &:hover {
+            background: #fa625f;
+            color: #fff;
+        }
+    }
+
+    a:first-child {
+        margin-right: 0;
+    }
+
+    @media screen and (max-width: $break-large - 1) {
+        border-bottom: 4px solid #fa625f;
+        padding-bottom: 10px;
+    }
+}
+
+#intro {
+    font-size: 1.3em;
+    border-bottom: 1px solid #000;
+}
+
+#content {
+    @media screen and (min-width: $break-large) {
+        width: 660px;
+        float: right;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    @media screen and (max-width: $break-large - 1) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+#side-content {
+    @media screen and (min-width: $break-large) {
+        width: 220px;
+        float: left;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 30px;
+        min-height: 500px;
+        position: fixed;
+    }
+    @media screen and (max-width: $break-large - 1) {
+        width: 100%;
+    }
+}
+
+
+.row {
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+    transition: .3s;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.thumbnail {
+    @media screen and (min-width: $break-large) {
+        float: left;
+        display: inline-block;
+        width: 200px;
+        min-height: 100px;
+    }
+    @media screen and (max-width: $break-large - 1) {
+        margin-bottom: 10px;
+    }
+
+    img {
+        display: block;
+        width: 200px;
+    }
+}
+
+.information {
+    @media screen and (min-width: $break-large) {
+        float: left;
+        display: inline-block;
+        width: 440px;
+        margin-left: 20px;
+    }
+    @media screen and (max-width: $break-large - 1) {
+        display: inline-block;
+    }
+}
+
+.row .title {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.description {
+    font-size: 1.3em;
+}
+
+.summary {
+    display: none;
+    margin-top: 20px;
+    clear: both;
+}
+
+.summary-row {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.summary-screenshots {
+    height: 80px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.project-page-link {
+    display: block;
+    float: right;
+    font-size: 1.2em;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        background: #000;
+        color: #fff;
+    }
+}
+
+.break-float {
+    clear: both;
+}
+
+#resume, #contact {
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+    h1 {
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+}
+
+.demo-links .link {
+    display: block;
+}
