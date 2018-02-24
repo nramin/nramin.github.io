@@ -41,12 +41,7 @@ p {
 
 body {
     font-family: 'Catamaran', sans-serif;
-    @media screen and (min-width: $break-large) {
-        font-size: 14px;
-    }
-    @media screen and (max-width: $break-large - 1) {
-        font-size: 12px;
-    }
+    font-size: 14px;
 }
 
 #container {
