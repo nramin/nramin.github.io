@@ -136,8 +136,8 @@
         }
       },
       {
-        "title":"Nordstrom - Software Engineer",
-        "date":"2014 - present",
+        "title":"Nordstrom - Senior Software Engineer",
+        "date":"2014 - 2022",
         "description":"Have been employed to work on various backend APIs, services, and frontend development.",
         "summary":[
           {
@@ -146,6 +146,18 @@
         ],
         "thumbnail":"/img/thumbs/nordstrom.png",
         "technologies":"C# (.NET), Java (Maven, DropWizard, JUnit, Mockito), React, TypeScript"
+      },
+      {
+        "title":"Liberty Mutual - Senior Software Engineer",
+        "date":"2022 - 2023",
+        "description":"Have been employed to work on various Java Spring backend APIs, services, and frontend development. Helping with facilitating the automation of transferring insurance policies from other companies to LiMu.",
+        "summary":[
+          {
+            "text":"Have been employed to work on various backend APIs, services, and frontend development."
+          }
+        ],
+        "thumbnail":"/img/thumbs/nordstrom.png",
+        "technologies":"Java (Maven, Spring, JUnit, Mockito), React, TypeScript"
       }
     ]
   }
