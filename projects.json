@@ -144,7 +144,7 @@
             "text":"Have been employed to work on various backend APIs, services, and frontend development."
           }
         ],
-        "thumbnail":"/img/thumbs/libertymutual.png",
+        "thumbnail":"/img/thumbs/nordstrom.png",
         "technologies":"C# (.NET), Java (Maven, DropWizard, JUnit, Mockito), React, TypeScript"
       },
       {
@@ -156,7 +156,7 @@
             "text":"Have been employed to work on various backend APIs, services, and frontend development."
           }
         ],
-        "thumbnail":"/img/thumbs/nordstrom.png",
+        "thumbnail":"/img/thumbs/libertymutual.png",
         "technologies":"Java (Maven, Spring, JUnit, Mockito), React, TypeScript"
       }
     ]
