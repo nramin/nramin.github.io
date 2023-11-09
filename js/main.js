@@ -1,6 +1,6 @@
 "use strict"
 
-var projectCount = 7;
+var projectCount = 8;
 
 loadProjectsMainPageSkeleton();
 loadProjectsMainPage();
