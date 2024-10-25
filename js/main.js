@@ -1,6 +1,6 @@
 "use strict"
 
-const projectCount = 8;
+const projectCount = 9;
 
 loadProjectsMainPageSkeleton();
 loadProjectsMainPage();
