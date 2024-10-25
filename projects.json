@@ -158,6 +158,18 @@
         ],
         "thumbnail":"/img/thumbs/libertymutual.png",
         "technologies":"Java (Maven, Spring, JUnit, Mockito), React, TypeScript"
+      },
+      {
+        "title":"AT&T - Senior Software Engineer",
+        "date":"2023 - Present",
+        "description":"Have been employed to work on various Java Spring backend APIs, services, and full stack development. Helping with customer facing business to business websites interfacing with AT&T's services.",
+        "summary":[
+          {
+            "text":"Have been employed to work on various backend APIs, services, and full stack development."
+          }
+        ],
+        "thumbnail":"/img/thumbs/att.png",
+        "technologies":"Java (Maven, Spring, JUnit, Mockito), Kuberntes, Angular, TypeScript"
       }
     ]
   }
